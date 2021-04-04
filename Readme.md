@@ -10,5 +10,6 @@ I used 3 modules in the python code
     3. Pyperclip - to add things to clipboard
 
 I added an exe which is independent of python I used the pyinstaller module to create it
+###### Use this command as pyinstaller
 pyinstaller --onefile --icon=ISS_Tracker.ico ISS_Tracker.py
 
