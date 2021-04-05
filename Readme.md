@@ -20,3 +20,5 @@ pyinstaller --onefile --icon=ISS_Tracker.ico ISS_Tracker.py
 
 ###### Ensure that when you install pyinstaller you install in a command prompt that is run as admin otherwise pyinstaller won't be added to path and you won't be able to call on pyinstaller
 
+Thank you and stay safe, John
+
