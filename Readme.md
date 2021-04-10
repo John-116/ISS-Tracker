@@ -1,7 +1,8 @@
-# ISS TRACKER
-I made this tracker using the ephem module in python.
+# SatTrack
+I made this Satellite tracker using the ephem module in python.
 
-It uses TLE data from NORAD to get the co-ordinates of the ISS
+It uses TLE data from NORAD (https://celestrak.com/NORAD/elements/stations.txt) to get the co-ordinates of satellites
+
 
 ## Modules I used
 I used 3 modules in the python code
@@ -10,8 +11,8 @@ I used 3 modules in the python code
 - Pyperclip
 
 ## Making an executable via pyinstaller
-I made an executable that is independent of python if you want to try it out without downloading any of the packages
-To make this executable I used pyinstaller
+If you want to make an executable out of this file use pyinstaller (command below).
+I had an exe on this repo but took it down as my anti-virus was flagging it
 I inserted this command which tells pyinstaller 3 things
 1. Make the executable one file
 2. Define the icon
@@ -22,3 +23,4 @@ pyinstaller --onefile --icon=ISS_Tracker.ico ISS_Tracker.py
 
 Thank you and stay safe, John
 
+    
